@@ -2,8 +2,8 @@ pipeline {
     agent any
     environment {
         GCR_CREDENTIALS_ID = 'ajweek3' // The ID you provided in Jenkins credentials
-        IMAGE_NAME = 'aamanda_gauntlett-build-1'
-        GCR_URL = 'gcr.io/gcr.io/lbg-mea-build-c19'
+        IMAGE_NAME = 'amanda_gauntlett-build-1'
+        GCR_URL = 'gcr.io/lbg-mea-build-c19'
     }
     stages {
         stage('Build and Push to GCR') {
