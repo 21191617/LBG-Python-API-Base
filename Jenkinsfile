@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        GCR_CREDENTIALS_ID = 'gcr-credentials' //ajweek3
+        GCR_CREDENTIALS_ID = 'ajweek3' //ajweek3
         IMAGE_NAME = 'ajtest-build-1'
         GCR_URL = 'gcr.io/lbg-mea-build-c19'
     }
